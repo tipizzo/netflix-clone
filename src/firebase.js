@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 import { initializeApp } from "firebase/app";
 import { 
     createUserWithEmailAndPassword, 
@@ -13,7 +11,7 @@ import {
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  apiKey: "AIzaSyDchmLwrQ51MoIE2AeOnfNaUHKt4m6BiVs",
   authDomain: "netflix-clone-5de44.firebaseapp.com",
   projectId: "netflix-clone-5de44",
   storageBucket: "netflix-clone-5de44.appspot.com",
